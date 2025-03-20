@@ -462,17 +462,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:PutEncryptionConfiguration",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.DeleteBucketInventoryConfiguration": [
@@ -588,17 +578,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:GetEncryptionConfiguration",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.GetBucketInventoryConfiguration": [
@@ -628,17 +608,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:GetLifecycleConfiguration",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.GetBucketMetricsConfiguration": [
@@ -758,17 +728,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:PutEncryptionConfiguration",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.PutBucketInventoryConfiguration": [
@@ -798,17 +758,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:PutLifecycleConfiguration",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.PutBucketMetricsConfiguration": [
@@ -36905,26 +36855,6 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:CreateBucket",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
-            }
-        ],
-        "S3.CreateSession": [
-            {
-                "action": "s3express:CreateSession",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
                 }
             }
         ],
@@ -36935,17 +36865,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:DeleteBucket",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.DeleteBucketOwnershipControls": [
@@ -36965,17 +36885,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:DeleteBucketPolicy",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.DeleteBucketWebsite": [
@@ -37071,17 +36981,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:GetBucketPolicy",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.GetBucketPolicyStatus": [
@@ -37265,17 +37165,7 @@
                     "BucketName": {
                         "template": "${Bucket}"
                     }
-                },
-                "notice": "Only applicable when the bucket name does not end with --x-s3"
-            },
-            {
-                "action": "s3express:PutBucketPolicy",
-                "resource_mappings": {
-                    "BucketName": {
-                        "template": "${Bucket}"
-                    }
-                },
-                "notice": "Only applicable when the bucket name ends with --x-s3"
+                }
             }
         ],
         "S3.PutBucketRequestPayment": [
