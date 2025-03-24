@@ -6476,7 +6476,7 @@
             {
                 "action": "logs:CreateLogGroup",
                 "arn_override": {
-                    "template": "arn:${Partition}:logs:${Region}:${Account}:log-group:${logGroupName}"
+                    "template": "arn:${Partition}:logs:${Region}:${Account}:log-group:${logGroupName}:log-stream:"
                 }
             }
         ],
